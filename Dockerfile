@@ -1,4 +1,3 @@
-FROM alpine:3.12 as main
 FROM php:7.2-fpm-alpine
 
 COPY . /app
